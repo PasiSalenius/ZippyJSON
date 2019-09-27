@@ -20,9 +20,6 @@ let package = Package(
         // Targets can depend on other targets in this package, and on products in packages which this package depends on.
         .target(
             name: "ZippyJSON",
-            dependencies: ["ZippyJSONCFamily", "JJLISO8601DateFormatter"]),
-        .testTarget(
-            name: "ZippyJSONTests",
-            dependencies: ["ZippyJSON"]),
+            dependencies: ["ZippyJSONCFamily", "JJLISO8601DateFormatter"])
     ]
 )
